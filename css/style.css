@@ -66,6 +66,7 @@ body{
    font-family: "Roboto Condensed", sans-serif;
    width: 25%;
    font-weight: 700;
+   margin-right: 0.5rem;
 }
 
 .navbar__sub {
@@ -89,7 +90,10 @@ body{
    margin: 0 auto;
 } */
 
-/* .content__header {} */
+.content__header {
+   max-width: 150rem;
+   margin: 0 auto;
+}
 
 .header__container{
    max-width: 840px;
